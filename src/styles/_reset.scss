@@ -1,0 +1,45 @@
+/* stylelint-disable */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+input[type='text'],
+input[type='email'],
+/* stylelint-enable */
+button {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}

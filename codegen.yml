@@ -1,0 +1,8 @@
+schema:
+  - https://api.github.com/graphql:
+      headers:
+        Authorization: "Bearer 0b53f4beb5585531e9752e7f51c4e61ca265bc69" # TODO put in .env
+generates:
+  ./src/generated/github.ts:
+    plugins:
+      - typescript
